@@ -9,12 +9,12 @@ namespace Lamda
     class Person
     {
         public string firstName;
-        public string surname;
+        public string middlname;
         public int age;
 
         public override string ToString()
         {
-            return $"Person: firstName = {firstName}, surname = {surname}, age = {age}";
+            return $"Person: firstName = {firstName}, surname = {middlname}, age = {age}";
         }
     }
 }
